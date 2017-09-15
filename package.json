@@ -1,0 +1,11 @@
+{
+  "name": "sealink-ecom-engine-css",
+  "version": "1.0.0",
+  "description": "SeaLink Ecom Engine shared styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mina Kim",
+  "license": "ISC"
+}
