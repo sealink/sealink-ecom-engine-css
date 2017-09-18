@@ -1,18 +1,21 @@
 // Tooltip
 [data-toggle="tooltip"]
+  &:hover,
+  &:active,
+  &:focus
+    outline: none
   img,
   i
-    margin: 0 3px
-    max-width: 23px
     &:hover
       cursor: pointer
   i
     display: inline-block
-    width: 23px
-    height: 23px
+    width: 15px
+    height: 15px
     background-image: url(/images/icons/info.svg)
     background-position: center
     background-repeat: no-repeat
+    background-size: contain
 .tooltip
   font-size: 14px
   font-weight: normal
@@ -29,6 +32,9 @@
     border-radius: 0
     a
       color: #fcb13a
+  &.bottom
+    .tooltip-arrow
+      border-bottom-color: #3d3b3b
   &.right
     margin-left: 5px
     .tooltip-arrow
