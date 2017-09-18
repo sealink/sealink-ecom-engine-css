@@ -10,7 +10,7 @@ SeaLink Ecom Engine shared styles
 
 ### Import the style file to your project main scss/sass
 
-    @import "sealink-ecom-engine-css/sass/ecom"
+    @import "sealink-ecom-engine-css/sass/ecom-engine-styles"
 
 
 ### Add codes to copy image library
