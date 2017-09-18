@@ -35,7 +35,7 @@ SeaLink Ecom Engine shared styles
 ```html
 
   <a href='#' data-placement="bottom" data-toggle="tooltip" title="Child age range is 3-14 years">
-    <i class="fa fa-info-circle"></i>
+    <i class="icon-question-sign"></i>
   </a>
 
 ```
