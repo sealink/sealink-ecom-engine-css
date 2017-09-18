@@ -30,10 +30,12 @@ SeaLink Ecom Engine shared styles
     runSequence ['img_libs', 'js_libs', 'modernizr', 'sass']
 ```
 
-### Mockup for tooltip
+### Markup for tooltip
 
-```ruby
+```html
 
-  %a{href: "#", title: "#{passenger_type_count.conditions}", "data-placement":"bottom",  "data-toggle":"tooltip"}
-    %i.icon-question-sign
+  <a href='#' data-placement="bottom" data-toggle="tooltip" title="Child age range is 3-14 years">
+    <i class="fa fa-info-circle"></i>
+  </a>
+
 ```
