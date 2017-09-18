@@ -5,7 +5,7 @@ SeaLink Ecom Engine shared styles
 
 ### Usage
 
-    gem install sealink-ecom-engine-css --save
+    npm install sealink-ecom-engine-css --save
 
 
 ### Import the style file to your project main scss/sass
