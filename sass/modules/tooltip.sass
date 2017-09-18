@@ -1,9 +1,13 @@
 // Tooltip
 [data-toggle="tooltip"]
+  &:hover,
+  &:active,
+  &:focus
+    outline: none
   img,
   i
-    margin: 0 3px
     max-width: 23px
+    vertical-align: middle
     &:hover
       cursor: pointer
   i
@@ -29,6 +33,9 @@
     border-radius: 0
     a
       color: #fcb13a
+  &.bottom
+    .tooltip-arrow
+      border-bottom-color: #3d3b3b
   &.right
     margin-left: 5px
     .tooltip-arrow
