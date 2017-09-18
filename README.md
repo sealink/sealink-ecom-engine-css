@@ -29,3 +29,9 @@ SeaLink Ecom Engine shared styles
   gulp.task 'build', ->
     runSequence ['img_libs', 'js_libs', 'modernizr', 'sass']
 
+### Mockup for tooltip
+
+'''ruby
+
+  %a{href: "#", title: "#{passenger_type_count.conditions}", "data-placement":"bottom",  "data-toggle":"tooltip"}
+    %i.icon-question-sign
