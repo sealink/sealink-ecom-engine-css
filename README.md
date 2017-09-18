@@ -32,7 +32,8 @@ SeaLink Ecom Engine shared styles
 
 ### Mockup for tooltip
 
-'''ruby
+```ruby
 
   %a{href: "#", title: "#{passenger_type_count.conditions}", "data-placement":"bottom",  "data-toggle":"tooltip"}
     %i.icon-question-sign
+```
