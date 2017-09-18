@@ -3,17 +3,17 @@
 SeaLink Ecom Engine shared styles
 
 
-## Using
+### Using
 
     gem install sealink-ecom-engine-css --save
 
 
-## Import the style file to your project main scss/sass
+### Import the style file to your project main scss/sass
 
     @import "sealink-ecom-engine-css/sass/ecom"
 
 
-## Add codes to copy image library
+### Add codes to copy image library
 
 ```coffee
 
