@@ -3,7 +3,7 @@
 SeaLink Ecom Engine shared styles
 
 
-### Using
+### Usage
 
     gem install sealink-ecom-engine-css --save
 
