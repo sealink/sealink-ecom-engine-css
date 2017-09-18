@@ -28,6 +28,7 @@ SeaLink Ecom Engine shared styles
 
   gulp.task 'build', ->
     runSequence ['img_libs', 'js_libs', 'modernizr', 'sass']
+```
 
 ### Mockup for tooltip
 
