@@ -1,3 +1,6 @@
+## [1.1.2]
+- Remove a semicolon for ruby sass versions
+
 ## [1.1.1]
 - Change the tooltip's position to bottom and add styles for it
 
