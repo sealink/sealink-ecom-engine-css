@@ -1,5 +1,5 @@
 ## [1.1.3]
-- Add styles for Bootstrap v4
+- Compativility tweaks for Bootstrap v4
 
 ## [1.1.2]
 - Remove a semicolon for ruby sass versions
