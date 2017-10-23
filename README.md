@@ -19,7 +19,7 @@ SeaLink Ecom Engine shared styles
 
   _paths = {
     build_img:    './public/images'
-    img_libs: 'node_modules/sealink-ecom-engine-css/lib/images/**/*'
+    img_libs: 'node_modules/sealink-ecom-engine-css/lib/images/ecom/**/*'
   }
 
   gulp.task 'img_libs', ->
