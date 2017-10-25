@@ -1,3 +1,8 @@
+## [1.1.4]
+- Change styles to remove 'i' tag of Tooltip
+- Add styles for the passenger and vehicle type descriptions
+- Change the Ecom-Engine's image path to ignorable on project
+
 ## [1.1.3]
 - Compatibility tweaks for Bootstrap v4
 
