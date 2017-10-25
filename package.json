@@ -1,6 +1,6 @@
 {
   "name": "sealink-ecom-engine-css",
-  "version": "1.1.9.dev2",
+  "version": "1.1.9-alpha.1",
   "description": "SeaLink Ecom Engine shared styles",
   "main": "sass/ecom.sass",
   "scripts": {
