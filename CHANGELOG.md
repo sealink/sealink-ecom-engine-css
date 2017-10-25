@@ -1,3 +1,7 @@
+## [1.1.4]
+- Change styles for Tooltip
+- Add a style file for note
+
 ## [1.1.3]
 - Compatibility tweaks for Bootstrap v4
 
