@@ -1,3 +1,6 @@
+## [1.1.9]
+- Change styles to remove 'i' tag of Tooltip
+
 ## [1.1.3]
 - Compatibility tweaks for Bootstrap v4
 
