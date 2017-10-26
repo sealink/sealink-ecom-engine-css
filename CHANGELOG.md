@@ -1,3 +1,6 @@
+## [1.1.10]
+- Improve UI for pax and vehicle type's descriptios
+
 ## [1.1.9]
 - Change styles to remove 'i' tag of Tooltip
 
