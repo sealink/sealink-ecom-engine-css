@@ -1,0 +1,48 @@
+.stepper
+  margin-bottom: 0.5rem
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 0
+
+  .stepper-label
+    margin-right: 10px
+    flex: 1
+
+  .stepper-wrapper
+    display: flex
+    border: 1px solid #ccc
+    max-height: 42px
+
+    .stepper-button,
+    .stepper-value
+      display: inline-block
+      padding: 0.5rem 0.85rem
+      line-height: 1rem
+      height: 40px
+      border-radius: 0
+      border: none
+      box-shadow: none
+
+    .stepper-button
+      background: #efefef
+      color: #333
+
+      &:hover
+        background: #e0e0e0
+
+      &.stepper-button-disabled
+        i
+          opacity: 0.25
+
+    .stepper-value
+      width: 3rem
+      text-align: center
+
+.stepper + .stepper
+  margin-top: 1rem
+
+.pax-selection-row .refine-search-passenger-type-description
+  display: flex !important
+  margin-left: 0 !important
+  margin-bottom: 1.5rem !important
