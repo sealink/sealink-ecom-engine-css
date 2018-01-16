@@ -1,3 +1,6 @@
+## [Unreleased]
+- Generalize Flex rule for numeric steppers
+
 ## [1.2.0]
 - Add CSS for numeric steppers
 
