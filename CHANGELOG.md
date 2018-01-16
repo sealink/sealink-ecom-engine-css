@@ -1,4 +1,4 @@
-## [1.2.1]
+## [Unreleased]
 - Generalize Flex rule for numeric steppers
 
 ## [1.2.0]
