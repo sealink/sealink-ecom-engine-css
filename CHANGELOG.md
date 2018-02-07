@@ -1,5 +1,5 @@
 ## [Unreleased]
-- Add styles for quick searc panel
+- Add styles for quick search panel
 - Generalize Flex rule for numeric steppers
 
 ## [1.2.0]
