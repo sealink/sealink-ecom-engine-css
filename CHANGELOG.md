@@ -1,4 +1,5 @@
 ## [Unreleased]
+- Add styles for quick searc panel
 - Generalize Flex rule for numeric steppers
 
 ## [1.2.0]
