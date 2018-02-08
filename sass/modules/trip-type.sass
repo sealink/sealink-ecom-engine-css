@@ -109,10 +109,11 @@
  * Media
  * ========================================================================== */
 
-
 @media screen and (min-width: 992px) and (max-width: 1199px)
-  .quick-search-container .product-search-car.product-search-select-arrow:before
-    opacity: 0
+  .quick-search-container
+    .product-search-car.product-search-select-arrow
+      &:before
+        opacity: 0
 
 @media screen and (max-width: 767px)
   .product-search-dates
@@ -128,7 +129,6 @@
       font-size: 0.93rem
       padding-left: 20px
       width: 100px
-
 
 @media screen and (max-width: 340px)
   .product-search-dates
