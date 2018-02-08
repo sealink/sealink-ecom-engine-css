@@ -47,7 +47,6 @@
  * ========================================================================== */
 
 .product-search-dates
-
   .oneway &
     .trip-type
       .indicator
@@ -57,7 +56,6 @@
        color: #fff
       .return-label
        color: #333
-
     .return-date-label
      opacity: 0.2
 
@@ -71,10 +69,8 @@
     margin-top: 4px
     &:before
       font-size: 1.1rem
-
   .icon-minus
     margin-right: 0
-
   .product-search-date-icon
     position: relative
     &:before
@@ -93,7 +89,6 @@
     margin: 0
     justify-content: flex-start
     display: flex
-
   .flex-item
     border: none
     padding: 0 3px
@@ -114,10 +109,18 @@
  * Media
  * ========================================================================== */
 
-@media screen and (max-width: 767px)
 
+@media screen and (min-width: 992px) and (max-width: 1199px)
+  .quick-search-container .product-search-car.product-search-select-arrow:before
+    opacity: 0
+
+@media screen and (max-width: 767px)
   .product-search-dates
     padding: 0 10px
+
+    .flex-item:first-child
+      padding-left: 0px
+
     .flex-layout
       display: flex
 
@@ -126,12 +129,13 @@
       padding-left: 20px
       width: 100px
 
+
 @media screen and (max-width: 340px)
   .product-search-dates
-    .flex-item:first-child
-      padding-left: 0px
-
     input.check-dates-input
       font-size: 0.9rem
-      padding-left: 10px
+      padding-left: 0px
       width: 90px
+
+    .product-search-date-icon
+      display: none
