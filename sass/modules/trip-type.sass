@@ -1,0 +1,141 @@
+/* ==========================================================================
+ * Trip type - checkbox
+ * ========================================================================== */
+
+.product-search-dates .trip-type
+  width: 56px
+  height: 27px
+  display: block
+  position: relative
+  border-radius: 10px
+  box-shadow: inset 0 0 0 1px #d7d7d7
+  overflow: hidden
+  .indicator
+    position: absolute
+    right: 0
+    width: 28px
+    height: 27px
+    background-color: #013a7e
+    border: 1px solid #013a7e
+    border-radius: 0 10px 10px 0
+    transition: all 0.3s cubic-bezier(0.56, 0.25, 0.38, 0.72)
+
+  label
+    line-height: 25px
+    position: relative
+    padding: 1px 6px
+    display: block
+    color: #333
+    float: left
+    cursor: pointer
+    .fa
+      transition: all 0.3s
+
+  .return-label
+    color: #fff
+
+  input[type="radio"]
+    position: absolute
+    z-index: -2
+    height: 1px
+    width: 1px
+    padding: 0
+
+
+/* ==========================================================================
+ * Oneway
+ * ========================================================================== */
+
+.product-search-dates
+  .oneway &
+    .trip-type
+      .indicator
+       transform: translate(-100%, 0)
+       border-radius: 10px 0 0 10px
+      .oneway-label
+       color: #fff
+      .return-label
+       color: #333
+    .return-date-label
+     opacity: 0.2
+
+
+/* ==========================================================================
+ * Icons, layouts
+ * ========================================================================== */
+
+.product-search-dates
+  .fa-long-arrow-right.accom-arrow
+    margin-top: 4px
+    &:before
+      font-size: 1.1rem
+  .icon-minus
+    margin-right: 0
+  .product-search-date-icon
+    position: relative
+    &:before
+      content: "\f073" /* calendar-alt */
+      font-family: FontAwesome
+      left: 0
+      position: absolute
+      top: 12px
+
+  input.check-dates-input
+    padding: 0 0 0 20px
+    cursor: pointer
+    width: 105px
+
+  .flex-layout
+    margin: 0
+    justify-content: flex-start
+    display: flex
+  .flex-item
+    border: none
+    padding: 0 3px
+    margin: 0 2px
+    flex-grow: 0
+    &:first-child
+      padding-left: 13px
+    &:last-child
+      padding-right: 5px
+    [class^="icon-"].icon-calendar
+      position: absolute
+      top: 50%
+      margin: 0
+      transform: translateY(-50%)
+
+
+/* ==========================================================================
+ * Media
+ * ========================================================================== */
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+  .quick-search-container
+    .product-search-car.product-search-select-arrow
+      &:before
+        opacity: 0
+
+@media screen and (max-width: 767px)
+  .product-search-dates
+    padding: 0 10px
+
+    .flex-item:first-child
+      padding-left: 0px
+
+    .flex-layout
+      display: flex
+
+    input.check-dates-input
+      font-size: 0.93rem
+      padding-left: 20px
+      width: 100px
+
+@media screen and (max-width: 340px)
+  .product-search-dates
+    input.check-dates-input
+      font-size: 0.9rem
+      padding-left: 0px
+      width: 90px
+
+    .product-search-date-icon
+      display: none
