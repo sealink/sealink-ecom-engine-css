@@ -1,4 +1,4 @@
-## [1.2.2]
+## [Unreleased]
 - Change styles for trip type's layout
 
 ## [1.2.1]
