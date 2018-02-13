@@ -1,4 +1,7 @@
-## [Unreleased]
+## [1.2.2]
+- Change styles for trip type's layout
+
+## [1.2.1]
 - Add styles for the trip type of search panel
 - Generalize Flex rule for numeric steppers
 
