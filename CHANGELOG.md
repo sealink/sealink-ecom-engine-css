@@ -1,7 +1,6 @@
 # SeaLink Ecom Engine CSS
 
-## Unreleased
-
+## [1.2.2]
 - Fix indenting issue
 
 ## [1.2.1]
