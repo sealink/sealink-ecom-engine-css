@@ -1,5 +1,10 @@
-## [Unreleased]
+# SeaLink Ecom Engine CSS
+
+## Unreleased
 - Change styles for trip type's layout
+
+## [1.2.2]
+- Fix indenting issue
 
 ## [1.2.1]
 - Add styles for the trip type of search panel
