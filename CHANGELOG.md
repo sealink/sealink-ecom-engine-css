@@ -1,3 +1,12 @@
+## [1.2.3]
+- Rollback to 1.2.0
+
+## [1.2.2]
+- Unpublished
+
+## [1.2.1]
+- Unpublished
+
 ## [1.2.0]
 - Add CSS for numeric steppers
 
