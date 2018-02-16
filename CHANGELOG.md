@@ -6,8 +6,11 @@
 * Add styles for the trip type of search panel
 * Generalize Flex rule for numeric steppers
 
-## 1.2.3
+## [1.2.4]
 * Rollback to 1.2.0
+
+## 1.2.3
+* Unpublished
 
 ## 1.2.2
 * Unpublished
