@@ -3,6 +3,7 @@
 * Fix indenting issue
 * Add styles for the trip type of search panel
 * Generalize Flex rule for numeric steppers
+* Improve positioning of trip-type selector
 
 ## 1.2.4
 
