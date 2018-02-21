@@ -1,5 +1,8 @@
+# SeaLink Ecom Engine CSS
+
 ## Unreleased
 
+* Change styles for trip type's layout
 * Fix indenting issue
 * Add styles for the trip type of search panel
 * Generalize Flex rule for numeric steppers

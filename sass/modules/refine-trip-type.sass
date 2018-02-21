@@ -65,16 +65,8 @@
     input.check-dates-input
       padding-left: 18px
 
-@media screen and (min-width: 768px)
-  .refine-product-search-dates .return-date-label
-    margin-left: 5px
 
-@media screen and (max-width: 480px)
-  .refine-product-search-dates
-    .flex-layout
-      justify-content: space-between
-
-@media screen and (min-width: 481px)
+@media screen and (min-width: 700px) and (max-width: 990px)
   .refine-product-search-dates
     .flex-layout
       justify-content: flex-start
@@ -83,10 +75,9 @@
 
 @media screen and (max-width: 340px)
   .refine-product-search-dates
+    input.check-dates-input
+      font-size: 0.9rem
+      padding-left: 0
+      width: 80px
     .flex-item:first-child
       padding-left: 0px
-
-    input.check-dates-input
-      font-size: 13px
-      padding-left: 0
-      width: 75px
