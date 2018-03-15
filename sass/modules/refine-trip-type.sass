@@ -1,12 +1,19 @@
 /* ==========================================================================
  * Trip type - refine-search
  * ========================================================================== */
-.editing.searchbar
+
+.edit-mode
   .refine-product-search-dates
     width: 100%
     margin-bottom: 20px
-    @media screen and (min-width: 1000px)
-      width: 40%
+    max-width: 400px
+    // Disable oneway/return toggle button for editing mode
+    .trip-type
+      .indicator
+        background-color: #999
+        border-color: #999
+      label
+        cursor: not-allowed
 
 .refine-product-search-dates
   margin: 0
