@@ -1,5 +1,6 @@
 ## Unreleased
 
+* [DC-941] Add styles for trip-type field when we changing the booking information
 * Fix indenting issue
 * Add styles for the trip type of search panel
 * Generalize Flex rule for numeric steppers
