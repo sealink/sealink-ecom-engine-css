@@ -1,4 +1,4 @@
-## Unreleased
+## 1.3.0
 
 * [DC-941] Add styles for trip-type field when we changing the booking information
 * Fix indenting issue
