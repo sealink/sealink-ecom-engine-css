@@ -1,3 +1,7 @@
+## Unreleased
+
+* [DC-1241] Add styles for the trip type labels of quick search panel
+
 ## 1.3.0
 
 * [DC-941] Add styles for trip-type field when we changing the booking information
