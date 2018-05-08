@@ -1,4 +1,4 @@
-## Unreleased
+## 1.4.0
 
 * [DC-1241] Add styles for the trip type labels of quick search panel
 
