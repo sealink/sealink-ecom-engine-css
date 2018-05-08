@@ -41,13 +41,18 @@
     width: 1px
     padding: 0
 
-
 /* ==========================================================================
  * Oneway
  * ========================================================================== */
 
 .product-search-dates
+  .oneway-title
+    display: none
   .oneway &
+    .depart-title
+      display: none
+    .oneway-title
+      display: block
     .trip-type
       .indicator
         transform: translate(-100%, 0)
@@ -59,7 +64,6 @@
     .return-date-label
       opacity: 0.2
 
-
 /* ==========================================================================
  * Icons, layouts
  * ========================================================================== */
@@ -69,6 +73,14 @@
     margin-top: 4px
     &:before
       font-size: 1.1rem
+  .return-title,
+  .depart-title
+    display: block
+  .oneway-title
+    display: none
+  .trip-type-label
+    font-size: 11px
+    opacity: 0.7
   .icon-minus
     margin-right: 0
   .product-search-date-icon
@@ -78,7 +90,7 @@
       font-family: FontAwesome
       left: 0
       position: absolute
-      top: 12px
+      top: 0
 
   input.check-dates-input
     padding: 0 0 0 20px
@@ -103,7 +115,6 @@
       top: 50%
       margin: 0
       transform: translateY(-50%)
-
 
 /* ==========================================================================
  * Media
